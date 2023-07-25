@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container{
+	width: 28%
+	height: 95%;
+	box-shadow: 10px 10px 50px 5px black;
+}
+img{
+    width: 73%;
+    height: 230px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    width: 35%;
+    height: 58px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    background-color: #FE635B;
+    cursor: pointer;
+}
